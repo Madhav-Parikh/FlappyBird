@@ -186,7 +186,7 @@ public class FlappyBird implements ActionListener, KeyListener, MouseListener {
             paintColumn(g, column);
         }
 
-        g.setColor(Color.white);
+        g.setColor(Color.BLACK);
         g.setFont(new Font("Arial", Font.BOLD, 48));
 
         if (!started) {

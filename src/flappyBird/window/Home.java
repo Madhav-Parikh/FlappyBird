@@ -20,7 +20,7 @@ public class Home extends JPanel implements ActionListener{
     private JLabel title;
     private JButton playButton, helpButton, quitButton;
     private BoxLayout layout;
-    private Font font1, font2;
+    private Font font2;
 
     public Home() {
         this.setName("Home");
@@ -29,7 +29,19 @@ public class Home extends JPanel implements ActionListener{
         this.setLayout(layout);
         this.setBackground(new ColorUIResource(178, 255, 255));
 
-        font1 = new Font("Arial", Font.BOLD, 32);
+        Font customFont = new Font("Arial", Font.BOLD, 32);
+        // try {
+        //     //create the font to use. Specify the size!
+        //     customFont = Font.createFont(Font.TRUETYPE_FONT, new File("./gameFonts.ttf")).deriveFont(12f);
+        //     GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
+        //     //register the font
+        //     ge.registerFont(customFont);
+        // } catch (IOException e) {
+        //     e.printStackTrace();
+        // } catch(FontFormatException e) {
+        //     e.printStackTrace();
+        // }
+
         font2 = new Font("Arial", Font.PLAIN, 24);
 
         final Dimension componentSize = new Dimension(300, 90);
@@ -38,7 +50,7 @@ public class Home extends JPanel implements ActionListener{
         this.add(Box.createRigidArea(boxSize));
         
         title = new JLabel("Flappy Bird", JLabel.CENTER);
-        title.setFont(font1);
+        title.setFont(customFont);
         title.setMaximumSize(componentSize);
         title.setAlignmentX(JLabel.CENTER_ALIGNMENT);
         this.add(title);

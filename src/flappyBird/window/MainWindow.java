@@ -1,7 +1,5 @@
 package flappyBird.window;
 
-import java.awt.Color;
-
 import javax.swing.JFrame;
 
 // import java.awt.Toolkit;
@@ -26,7 +24,8 @@ public class MainWindow extends JFrame {
         this.requestFocus();
         // this.setUndecorated(true);
         this.setResizable(false);
-        this.setBackground(Color.cyan);
+        // this.setBackground(Color.cyan);
+        
         // device.setFullScreenWindow(this);
         // HEIGHT = this.getHeight();
         // WIDTH = this.getWidth();
