@@ -17,6 +17,7 @@ import java.util.Random;
 
 import javax.swing.JFrame;
 import javax.swing.Timer;
+import javax.swing.plaf.ColorUIResource;
 
 public class FlappyBird implements ActionListener, KeyListener, MouseListener {
 
@@ -141,12 +142,21 @@ public class FlappyBird implements ActionListener, KeyListener, MouseListener {
             bird.y += yMotion;
 
             for (Rectangle column : columns) {
-                if((bird.x + bird.width / 2) > (column.x + column.width / 2 - 5) && (bird.x + bird.width / 2) < (column.x + column.width / 2 + 5)) {
+                if(column.y == 0 && bird.x + bird.width / 2 > column.x + column.width / 2 - 5 && bird.x + bird.width / 2 < column.x + column.width / 2 + 5) {
                     score += 1;
                 }
                 if (bird.intersects(column)) {
                     gameOver = true;
-                    bird.x = column.x - bird.width;
+                    if(bird.x <= column.x) {
+                        bird.x = column.x - bird.width;
+
+                    } else {
+                        if(column.y != 0) {
+                            bird.y = column.y - bird.height;
+                        } else if(bird.y < column.height) {
+                            bird.y = column.height;
+                        }
+                    }
                 }
             }
             if (bird.y > HEIGHT - 120 || bird.y < 0) {
@@ -160,7 +170,7 @@ public class FlappyBird implements ActionListener, KeyListener, MouseListener {
     }
 
     public void repaint(Graphics g) {
-        g.setColor(Color.cyan);
+        g.setColor(new ColorUIResource(178, 255, 255));
         g.fillRect(0, 0, WIDTH, HEIGHT);
 
         g.setColor(Color.orange);
@@ -180,11 +190,11 @@ public class FlappyBird implements ActionListener, KeyListener, MouseListener {
         g.setFont(new Font("Arial", Font.BOLD, 48));
 
         if (!started) {
-            g.drawString("Press space to start", (WIDTH - 400) / 2, HEIGHT / 2);
+            g.drawString("Press Space/Click to Start", (WIDTH - 550) / 2, HEIGHT / 2 - 170);
         }
 
         if (gameOver) {
-            g.drawString("Game Over!", (WIDTH - 300) / 2, HEIGHT / 2);
+            g.drawString("Game Over. Try Again!", (WIDTH - 470) / 2, HEIGHT / 2 - 45);
         }
 
         if(!gameOver && started) {

@@ -36,7 +36,9 @@ public class MainWindow extends JFrame {
     public MainWindow(String title) {
         this.title = title;
         windowConfigs();
+
         Home home = new Home();
         this.add(home);
+
     }
 }

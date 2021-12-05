@@ -11,6 +11,7 @@ import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.plaf.ColorUIResource;
 
 import flappyBird.FlappyBird;
 
@@ -26,7 +27,7 @@ public class Home extends JPanel implements ActionListener{
 
         layout = new BoxLayout(this, BoxLayout.Y_AXIS);
         this.setLayout(layout);
-        this.setBackground(Color.CYAN);
+        this.setBackground(new ColorUIResource(178, 255, 255));
 
         font1 = new Font("Arial", Font.BOLD, 32);
         font2 = new Font("Arial", Font.PLAIN, 24);
@@ -79,6 +80,9 @@ public class Home extends JPanel implements ActionListener{
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == playButton) {
             FlappyBird.flappyBird = new FlappyBird();
+        }
+        if(e.getSource() == helpButton) {
+            new Help();
         }
         if(e.getSource() == quitButton) {
             System.exit(0);
