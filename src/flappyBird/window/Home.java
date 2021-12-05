@@ -1,7 +1,10 @@
 package flappyBird.window;
 
-import java.awt.*;
-import java.awt.event.*;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.Box;
 import javax.swing.BoxLayout;
@@ -23,8 +26,9 @@ public class Home extends JPanel implements ActionListener{
 
         layout = new BoxLayout(this, BoxLayout.Y_AXIS);
         this.setLayout(layout);
+        this.setBackground(Color.CYAN);
 
-        font1 = new Font("Serif", Font.BOLD, 32);
+        font1 = new Font("Arial", Font.BOLD, 32);
         font2 = new Font("Arial", Font.PLAIN, 24);
 
         final Dimension componentSize = new Dimension(300, 90);
@@ -43,7 +47,7 @@ public class Home extends JPanel implements ActionListener{
         playButton = new JButton("Play");
         playButton.setFont(font2);
         playButton.setMaximumSize(componentSize);
-        playButton.setBackground(Color.WHITE);
+        playButton.setBackground(Color.ORANGE);
         playButton.setAlignmentX(JButton.CENTER_ALIGNMENT);
         playButton.addActionListener(this);
         this.add(playButton);
@@ -53,7 +57,7 @@ public class Home extends JPanel implements ActionListener{
         helpButton = new JButton("Help");
         helpButton.setFont(font2);
         helpButton.setMaximumSize(componentSize);
-        helpButton.setBackground(Color.WHITE);
+        helpButton.setBackground(Color.ORANGE);
         helpButton.setAlignmentX(JButton.CENTER_ALIGNMENT);
         helpButton.addActionListener(this);
         this.add(helpButton);
@@ -63,7 +67,7 @@ public class Home extends JPanel implements ActionListener{
         quitButton = new JButton("Quit");
         quitButton.setFont(font2);
         quitButton.setMaximumSize(componentSize);
-        quitButton.setBackground(Color.WHITE);
+        quitButton.setBackground(Color.ORANGE);
         quitButton.setAlignmentX(JButton.CENTER_ALIGNMENT);
         quitButton.addActionListener(this);
         this.add(quitButton);

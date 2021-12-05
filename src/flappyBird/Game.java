@@ -2,7 +2,7 @@ package flappyBird;
 
 import flappyBird.window.MainWindow;
 
-public class Game implements Runnable{
+public class Game{
 
     private void initWindow(String title) {
         MainWindow window = new MainWindow(title);        
@@ -11,10 +11,5 @@ public class Game implements Runnable{
 
     public Game(String title) {
         initWindow(title);
-    }
-
-    @Override
-    public void run() {
-        
     }
 }
