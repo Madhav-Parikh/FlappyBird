@@ -60,7 +60,7 @@ public class Home extends JPanel implements ActionListener{
         playButton = new JButton("Play");
         playButton.setFont(font2);
         playButton.setMaximumSize(componentSize);
-        playButton.setBackground(Color.ORANGE);
+        playButton.setBackground(new Color(225, 169, 95));
         playButton.setAlignmentX(JButton.CENTER_ALIGNMENT);
         playButton.addActionListener(this);
         this.add(playButton);
@@ -70,7 +70,7 @@ public class Home extends JPanel implements ActionListener{
         helpButton = new JButton("Help");
         helpButton.setFont(font2);
         helpButton.setMaximumSize(componentSize);
-        helpButton.setBackground(Color.ORANGE);
+        helpButton.setBackground(new Color(225, 169, 95));
         helpButton.setAlignmentX(JButton.CENTER_ALIGNMENT);
         helpButton.addActionListener(this);
         this.add(helpButton);
@@ -80,7 +80,7 @@ public class Home extends JPanel implements ActionListener{
         quitButton = new JButton("Quit");
         quitButton.setFont(font2);
         quitButton.setMaximumSize(componentSize);
-        quitButton.setBackground(Color.ORANGE);
+        quitButton.setBackground(new Color(225, 169, 95));
         quitButton.setAlignmentX(JButton.CENTER_ALIGNMENT);
         quitButton.addActionListener(this);
         this.add(quitButton);

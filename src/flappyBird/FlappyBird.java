@@ -85,7 +85,7 @@ public class FlappyBird implements ActionListener, KeyListener, MouseListener {
     }
 
     public void paintColumn(Graphics g, Rectangle column) {
-        g.setColor(Color.green.darker());
+        g.setColor(new Color(68, 214, 44));
         g.fillRect(column.x, column.y, column.width, column.height);
     }
 
@@ -170,13 +170,13 @@ public class FlappyBird implements ActionListener, KeyListener, MouseListener {
     }
 
     public void repaint(Graphics g) {
-        g.setColor(new ColorUIResource(178, 255, 255));
+        g.setColor(new Color(178, 255, 255));
         g.fillRect(0, 0, WIDTH, HEIGHT);
 
-        g.setColor(Color.orange);
+        g.setColor(new Color(225, 169, 95));
         g.fillRect(0, HEIGHT - 120, WIDTH, 150);
 
-        g.setColor(Color.green);
+        g.setColor(new Color(0, 135, 62));
         g.fillRect(0, HEIGHT - 120, WIDTH, 20);
 
         g.setColor(Color.red);
@@ -194,7 +194,8 @@ public class FlappyBird implements ActionListener, KeyListener, MouseListener {
         }
 
         if (gameOver) {
-            g.drawString("Game Over. Try Again!", (WIDTH - 470) / 2, HEIGHT / 2 - 45);
+            g.drawString("Game Over, try again!", (WIDTH - 450) / 2, HEIGHT / 2 - 45);
+            g.drawString("Score: " + score, (WIDTH - 100) / 2, HEIGHT / 2);
         }
 
         if(!gameOver && started) {
@@ -228,14 +229,13 @@ public class FlappyBird implements ActionListener, KeyListener, MouseListener {
 
     @Override
     public void mouseClicked(MouseEvent e) {
-        jump();
+    	// TODO Auto-generated method stub        
         
     }
 
     @Override
     public void mousePressed(MouseEvent e) {
-        // TODO Auto-generated method stub
-        
+    	jump();
     }
 
     @Override
