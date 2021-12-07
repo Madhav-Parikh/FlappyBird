@@ -1,18 +1,30 @@
-## Getting Started
+# Flappy Bird in Java #
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to Flappy Bird! Hope you have come ready with your enthusiasm sky high, because this game will challenge you to the maximum! 
 
-## Folder Structure
+Although the way to play it is fairly simple, you just have to Press Space or Click your Left Mouse Button to make the bird fly. Sounds extremely simple, right? However, since us humans don't have an experience in flying by ourselves, especially near those dangerous pipes, playing the game isn't always as easy as it looks.
 
-The workspace contains two folders by default, where:
+However, anything challenging is always fun. So enjoy flying. You deserve it. 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Every single time you manage to fly past the pipes, your score increases by one. Although, if you aren't able to judge your flight correctly and hit one of those pipes, the game ends there.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+We'd love to know how well (or poorly :P) you've performed. Share your High Scores with us on our socials!
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+# Screenshots -
 
-## Dependency Management
+![Main Menu](https://user-images.githubusercontent.com/95480469/145030960-384ff04b-3673-4f99-a88e-111b79f6a3fb.png)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+![Start](https://user-images.githubusercontent.com/95480469/145030653-a11cd875-cdca-465f-8782-b5b29e6988fa.png)
+
+
+![Midgame](https://user-images.githubusercontent.com/95480469/145030708-2ae59d8f-e2bd-492e-a5bd-20b72f6b956c.png)
+
+
+![Endgame](https://user-images.githubusercontent.com/95480469/145030772-69dd40e6-87ce-47e5-a431-36b22aae9da8.png)
+
+
+# Created and developed by -
+
+[Jay Nakum](https://github.com/JayNakum)  
+[Madhav Parikh](https://github.com/Madhav-Parikh)
