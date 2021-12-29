@@ -20,6 +20,4 @@ We'd love to know how well (or poorly :P) you've performed. Share your High Scor
 ## Credits
 We followed [Jaryt Bustard's](https://www.youtube.com/c/Jaryt) [YouTube video](https://www.youtube.com/watch?v=I1qTZaUcFX0).
 
-## Developed by
-[Jay Nakum](https://github.com/JayNakum)  
-[Madhav Parikh](https://github.com/Madhav-Parikh)
+### Developed by [Madhav Parikh](https://github.com/Madhav-Parikh) and [Jay Nakum](https://github.com/JayNakum).  
