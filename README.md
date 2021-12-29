@@ -1,4 +1,4 @@
-# Flappy Bird [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Madhav-Parikh/Flappy-Bird?label=Download&style=for-the-badge)](https://github.com/Madhav-Parikh/Flappy-Bird/releases)
+# FlappyBird [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Madhav-Parikh/Flappy-Bird?label=Download&style=for-the-badge)](https://github.com/Madhav-Parikh/Flappy-Bird/releases)
 
 Welcome to Flappy Bird! Hope you have come ready with your enthusiasm sky high, because this game will challenge you to the maximum! 
 
