@@ -12,10 +12,11 @@ We'd love to know how well (or poorly :P) you've performed. Share your High Scor
 
 ## Screenshots
 
-![Main Menu](https://user-images.githubusercontent.com/95480469/145030960-384ff04b-3673-4f99-a88e-111b79f6a3fb.png)
-![Start](https://user-images.githubusercontent.com/95480469/145030653-a11cd875-cdca-465f-8782-b5b29e6988fa.png)
-![Midgame](https://user-images.githubusercontent.com/95480469/145030708-2ae59d8f-e2bd-492e-a5bd-20b72f6b956c.png)
-![Endgame](https://user-images.githubusercontent.com/95480469/145030772-69dd40e6-87ce-47e5-a431-36b22aae9da8.png)
+### ![Sample Video](https://user-images.githubusercontent.com/45930809/147721221-ee734689-97e9-494d-b1e4-4961328c08a4.mp4)  
+![Main Menu](https://user-images.githubusercontent.com/95480469/145030960-384ff04b-3673-4f99-a88e-111b79f6a3fb.png)  
+![Start](https://user-images.githubusercontent.com/95480469/145030653-a11cd875-cdca-465f-8782-b5b29e6988fa.png)  
+![Midgame](https://user-images.githubusercontent.com/95480469/145030708-2ae59d8f-e2bd-492e-a5bd-20b72f6b956c.png)  
+![Endgame](https://user-images.githubusercontent.com/95480469/145030772-69dd40e6-87ce-47e5-a431-36b22aae9da8.png)  
 
 ## Credits
 We followed [Jaryt Bustard's](https://www.youtube.com/c/Jaryt) [YouTube video](https://www.youtube.com/watch?v=I1qTZaUcFX0).
