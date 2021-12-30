@@ -1,4 +1,4 @@
-# FlappyBird [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Madhav-Parikh/Flappy-Bird?label=Download&style=for-the-badge)](https://github.com/Madhav-Parikh/Flappy-Bird/releases)
+# [FlappyBird](https://github.com/Madhav-Parikh/FlappyBird) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Madhav-Parikh/Flappy-Bird?label=Download&style=for-the-badge)](https://github.com/Madhav-Parikh/Flappy-Bird/releases)
 
 Welcome to Flappy Bird! Hope you have come ready with your enthusiasm sky high, because this game will challenge you to the maximum! 
 
@@ -12,7 +12,7 @@ We'd love to know how well (or poorly :P) you've performed. Share your High Scor
 
 ## Screenshots
 
-### ![Sample Video](https://user-images.githubusercontent.com/45930809/147721221-ee734689-97e9-494d-b1e4-4961328c08a4.mp4)  
+<!-- ### ![Sample Video](https://user-images.githubusercontent.com/45930809/147721221-ee734689-97e9-494d-b1e4-4961328c08a4.mp4)   -->
 ![Main Menu](https://user-images.githubusercontent.com/95480469/145030960-384ff04b-3673-4f99-a88e-111b79f6a3fb.png)  
 ![Start](https://user-images.githubusercontent.com/95480469/145030653-a11cd875-cdca-465f-8782-b5b29e6988fa.png)  
 ![Midgame](https://user-images.githubusercontent.com/95480469/145030708-2ae59d8f-e2bd-492e-a5bd-20b72f6b956c.png)  
