@@ -2,7 +2,7 @@
 
 Welcome to Flappy Bird! Hope you have come ready with your enthusiasm sky high, because this game will challenge you to the maximum! 
 
-Although the way to play it is fairly simple, you just have to Press Space or Click your Left Mouse Button to make the bird fly. Sounds extremely simple, right? However, since us humans don't have an experience in flying by ourselves, especially near those dangerous pipes, playing the game isn't always as easy as it looks.
+Although the way to play it is fairly simple, you just have to Press <kbd>Space</kbd> or Click your <kbd>Left Mouse Button</kbd> to make the bird fly. Sounds extremely simple, right? However, since us humans don't have an experience in flying by ourselves, especially near those dangerous pipes, playing the game isn't always as easy as it looks.
 
 However, anything challenging is always fun. So enjoy flying. You deserve it. 
 
